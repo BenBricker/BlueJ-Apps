@@ -1,0 +1,104 @@
+id 132 quantity 0 name Clock Radio
+id 37 quantity 0 name Mobile Phone
+id 23 quantity 0 name Microwave Oven
+id 24 quantity 0 name fridge
+id 25 quantity 0 name spoon
+id 27 quantity 0 name fork
+id 26 quantity 0 name plate
+id 29 quantity 0 name toaster
+id 28 quantity 0 name laptop
+id 22 quantity 0 name freezer
+ID found:132
+increase amount
+ID found:37
+increase amount
+ID found:23
+increase amount
+ID found:24
+increase amount
+ID found:25
+increase amount
+ID found:27
+increase amount
+ID found:26
+increase amount
+ID found:29
+increase amount
+ID found:28
+increase amount
+ID found:22
+increase amount
+id 132 quantity 5 name Clock Radio
+id 37 quantity 6 name Mobile Phone
+id 23 quantity 7 name Microwave Oven
+id 24 quantity 8 name fridge
+id 25 quantity 9 name spoon
+id 27 quantity 10 name fork
+id 26 quantity 11 name plate
+id 29 quantity 12 name toaster
+id 28 quantity 13 name laptop
+id 22 quantity 14 name freezer
+ID found:132
+ID found:132
+132: Clock Radio stock level: 5
+ID found:37
+ID found:37
+37: Mobile Phone stock level: 6
+ID found:23
+ID found:23
+23: Microwave Oven stock level: 7
+ID found:24
+ID found:24
+24: fridge stock level: 8
+ID found:25
+ID found:25
+25: spoon stock level: 9
+ID found:27
+ID found:27
+27: fork stock level: 10
+ID found:26
+ID found:26
+26: plate stock level: 11
+ID found:29
+ID found:29
+29: toaster stock level: 12
+ID found:28
+ID found:28
+28: laptop stock level: 13
+ID found:22
+ID found:22
+22: freezer stock level: 14
+id 132 quantity 2 name Clock Radio
+id 37 quantity 3 name Mobile Phone
+id 23 quantity 4 name Microwave Oven
+id 24 quantity 5 name fridge
+id 25 quantity 6 name spoon
+id 27 quantity 7 name fork
+id 26 quantity 8 name plate
+id 29 quantity 9 name toaster
+id 28 quantity 10 name laptop
+id 22 quantity 11 name freezer
+ID found:37
+id 37 quantity 3 name Mobile Phone
+id 37 quantity 3 name paul
+ID found:22
+id 132 quantity 2 name Clock Radio
+id 37 quantity 3 name paul
+id 23 quantity 4 name Microwave Oven
+id 24 quantity 5 name fridge
+id 25 quantity 6 name spoon
+id 27 quantity 7 name fork
+id 26 quantity 8 name plate
+id 29 quantity 9 name toaster
+id 28 quantity 10 name laptop
+list of products with low stock
+id 132 quantity 2 name Clock Radio
+id 37 quantity 3 name paul
+id 23 quantity 4 name Microwave Oven
+id 24 quantity 5 name fridge
+ID found:132
+ID found:132
+132: Clock Radio stock level: 2
+Attempt to sell an out of stock item: Clock Radio
+error not found
+product id does not exist:22
