@@ -1,10 +1,9 @@
 import java.util.*;
-
 /**
  * The Student class represents a student in a student administration system.
  * It holds the student details relevant in our context.
  * 
- * @author Michael Kölling and David Barnes
+ * @author Ben Bricker
  * @version 2016.02.29
  */
 public class Student
@@ -26,7 +25,6 @@ public class Student
         id = studentID;
         credits = 0;
     }
-
     /**
      * Return the full name of this student.
      */
@@ -34,7 +32,6 @@ public class Student
     {
         return name;
     }
-
     /**
      * Set a new name for this student.
      */
@@ -42,7 +39,6 @@ public class Student
     {
         name = replacementName;
     }
-
     /**
      * Return the student ID of this student.
      */
@@ -50,7 +46,6 @@ public class Student
     {
         return id;
     }
-
     /**
      * Add some credit points to the student's accumulated credits.
      */
@@ -58,8 +53,6 @@ public class Student
     {
         credits += additionalPoints;
     }
-
-    
     /**
      * Return the number of credit points this student has accumulated.
      */
@@ -67,7 +60,6 @@ public class Student
     {
         return credits;
     }
-
     /**
      * Return the login name of this student. The login name is a combination
      * of the first four characters of the student's name and the first three

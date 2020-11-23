@@ -10,7 +10,6 @@ public class StockDemo
 {
     // The stock manager.
     private StockManager manager;
-
     /**
      * Create a StockManager and populate it with a few
      * sample products.
@@ -21,8 +20,14 @@ public class StockDemo
         manager.addProduct(new Product(132, "Clock Radio"));
         manager.addProduct(new Product(37,  "Mobile Phone"));
         manager.addProduct(new Product(23,  "Microwave Oven"));
+        manager.addProduct(new Product(24,  "fridge"));
+        manager.addProduct(new Product(25,  "spoon"));
+        manager.addProduct(new Product(27,  "fork"));
+        manager.addProduct(new Product(26,  "plate"));
+        manager.addProduct(new Product(29,  "toaster"));
+        manager.addProduct(new Product(28,  "laptop"));
+        manager.addProduct(new Product(22,  "freezer"));
     }
-    
     /**
      * Provide a very simple demonstration of how a StockManager
      * might be used. Details of one product are shown, the
@@ -34,9 +39,34 @@ public class StockDemo
         manager.printProductDetails();
         // Take delivery of 5 items of one of the products.
         manager.delivery(132, 5);
+        manager.delivery(37, 6);
+        manager.delivery(23, 7);
+        manager.delivery(24, 8);
+        manager.delivery(25, 9);
+        manager.delivery(27, 10);
+        manager.delivery(26, 11);
+        manager.delivery(29, 12);
+        manager.delivery(28, 13);
+        manager.delivery(22, 14);
         manager.printProductDetails();
+        this.sellQuantity(3, 132);
+        this.sellQuantity(3, 37);
+        this.sellQuantity(3, 23);
+        this.sellQuantity(3, 24);
+        this.sellQuantity(3, 25);
+        this.sellQuantity(3, 27);
+        this.sellQuantity(3, 26);
+        this.sellQuantity(3, 29);
+        this.sellQuantity(3, 28);
+        this.sellQuantity(3, 22);
+        manager.printProductDetails();
+        manager.renameProduct(37, "paul");
+        manager.remove(22);
+        manager.printProductDetails();
+        manager.printProductDetailsLowStock(5);
+        this.sellQuantity(3,132);
+        manager.delivery(22,5);
     }
-    
     /**
      * Show details of the given product. If found,
      * its name and stock quantity will be shown.
@@ -51,7 +81,6 @@ public class StockDemo
             System.out.println(product.toString());
         }
     }
-    
     /**
      * Sell one of the given item.
      * Show the before and after status of the product.
@@ -68,7 +97,16 @@ public class StockDemo
             showDetails(id);
         }
     }
-    
+    public void sellQuantity(int number, int id)
+    {
+      Product product = getProduct(id);
+      if(product != null)
+      {
+         showDetails(id);
+         for(int i = 0; i<number;i++)
+            product.sellOne(); 
+        }
+    }
     /**
      * Get the product with the given id from the manager.
      * An error message is printed if there is no match.
@@ -86,7 +124,6 @@ public class StockDemo
         }
         return product;
     }
-
     /**
      * @return The stock manager.
      */

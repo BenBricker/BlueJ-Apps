@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Course here.
+ * Course class represents the course information, with code number and title 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Ben Bricker)
+ * @version (2016.02.29)
  */
 public class Course
 {
@@ -20,12 +20,8 @@ public class Course
         this.codeNumber = codeNumber;
         this.title = title;
     }
-
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * prints out code number and course title
      */
     public void print()
     {

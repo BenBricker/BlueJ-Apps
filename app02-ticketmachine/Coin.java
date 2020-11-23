@@ -1,33 +1,26 @@
-
-/**
- * Write a description of class Coin here.
- *
- * @author (your name)
- * @version (a version number or a date)
+/** 
+ * Coin class contains the coin values 
+ * 
+ * @author David J. Barnes and Michael Kölling
+ * @version 2016.02.29
+ * 
+ * Modified by Ben Bricker
  */
-public class Coin
-{
-    // instance variables - replace the example below with your own
-    private int amount;
-
-    /**
-     * Constructor for objects of class Coin
-     */
-    public Coin(int amount)
+ public enum Coin
     {
-        // initialise instance variables
-        this.amount = amount;
-    }
+        P10 (10),
+        P20 (20),
+        P100 (100),
+        P200 (200);
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int getAmount()
-    {
-        // put your code here
-        return amount;
-    }
-}
+        private final int value;
+
+        private Coin(int value)
+        {
+            this.value = value;
+        }
+        public int getValue()
+        {
+            return value;
+        }
+     }

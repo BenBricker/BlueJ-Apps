@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Module here.
  *
@@ -8,28 +7,56 @@
 public class Module
 {
     // instance variables - replace the example below with your own
-    private ;
+    private String title;
+    private String moduleCode;
+    private int percentageMark;
 
     /**
      * Constructor for objects of class Module
      */
-    public Module(title, moduleCode, percentageMark);
+    public Module(String title,String moduleCode,int percentageMark)
     {
         // initialise instance variables
-        this.title = title
-        this.moduleCode = moduleCode
-        this.percentageMark = percentageMark
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+        this.title = title;
+        this.moduleCode = moduleCode;
+        this.percentageMark = percentageMark;
+    }    
+    public String getTitle()
     {
-        // put your code here
-        return x + y;
+        return this.title;
+        
+    }
+    public String setTitle()
+    {
+        return this.title;
+        
+    }
+    public String getModuleCode()
+    {
+        return this.moduleCode;
+        
+    }
+    public String setModuleCode()
+    {
+        return this.moduleCode;
+        
+    }
+    public int getPercentageMark()
+    {
+        return this.percentageMark;
+        
+    }
+    public void setPercentageMark(int percentageMark)
+    {
+        this.percentageMark = percentageMark;
+        
+    }
+    /**
+     * print module details
+     */
+    public void print()
+    {
+        System.out.println("module details: " + title + ":" + moduleCode + ":" + percentageMark);
+        
     }
 }

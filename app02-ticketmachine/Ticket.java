@@ -1,10 +1,5 @@
 /**
- * TicketMachine models a ticket machine that issues
- * flat-fare tickets.
- * The price of a ticket is specified via the constructor.
- * Instances will check to ensure that a user only enters
- * sensible amounts of money, and will only print a ticket
- * if enough money has been input.
+ * creates a ticket.
  * 
  * @author David J. Barnes and Michael Kölling
  * @version 2016.02.29
@@ -13,11 +8,11 @@
  */
 public class Ticket
 {
-    // The price of a ticket from this machine.
+    // The destination of a ticket. 
     private String destination;
-    // The amount of money entered by a customer so far.
+    // The price of a ticket.
     private int price;
-    // The total amount of money collected by this machine.
+    // The date of a ticket.
     private String date;
 
     /**
@@ -29,7 +24,6 @@ public class Ticket
         this.price = price;
         this.date = date;
     }
-
     /**
      * @Return The price of a ticket.
      */
@@ -37,15 +31,19 @@ public class Ticket
     {
         return price;
     }
-
     /**
-     * Return The amount of money already inserted for the
-     * next ticket.
+     * Get the destination of the ticket.
      */
     public String getDestination()
     {
         return destination;
     }
-
-    
+    public String getDate()
+    {
+        return date;
+    }
+    public void setDate(String date)
+    {
+       this.date = date; 
+    }
 }

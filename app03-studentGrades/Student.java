@@ -1,5 +1,4 @@
 import java.util.*;
-
 /**
  * The Student class represents a student in a student administration system.
  * It holds the student details relevant in our context.
@@ -16,6 +15,7 @@ public class Student
     // the amount of credits for study taken so far
     private int credits;
     
+    private Course course;
     /**
      * Create a new student with a given name and ID number.
      */
@@ -25,7 +25,6 @@ public class Student
         id = studentID;
         credits = 0;
     }
-
     /**
      * Return the full name of this student.
      */
@@ -33,7 +32,6 @@ public class Student
     {
         return name;
     }
-
     /**
      * Set a new name for this student.
      */
@@ -41,7 +39,6 @@ public class Student
     {
         name = replacementName;
     }
-
     /**
      * Return the student ID of this student.
      */
@@ -49,7 +46,6 @@ public class Student
     {
         return id;
     }
-
     /**
      * Add some credit points to the student's accumulated credits.
      */
@@ -57,8 +53,6 @@ public class Student
     {
         credits += additionalPoints;
     }
-
-    
     /**
      * Return the number of credit points this student has accumulated.
      */
@@ -66,7 +60,6 @@ public class Student
     {
         return credits;
     }
-
     /**
      * Return the login name of this student. The login name is a combination
      * of the first four characters of the student's name and the first three
@@ -76,12 +69,29 @@ public class Student
     {
         return name.substring(0,4) + id.substring(0,3);
     }
-    
     /**
      * Print the student's name and ID number to the output terminal.
      */
     public void print()
     {
         System.out.println(name + ", student ID: " + id + ", credits: " + credits);
+    }
+    public void enrol(Course course)
+    {
+        this.course = course;
+    }
+    public void printStudentGrades()
+    {
+        course.printFinalGrade();
+    }
+    public void testStudent()
+    {
+        Course newCourse = new Course("3","software");
+        newCourse.addModule(new Module("coding","swm1",40));
+        newCourse.addModule(new Module("testing","swm2",50));
+        newCourse.addModule(new Module("design","swm3",60));
+        newCourse.addModule(new Module("documentation","swm4",70));
+        this.enrol(newCourse);
+        this.printStudentGrades();
     }
 }

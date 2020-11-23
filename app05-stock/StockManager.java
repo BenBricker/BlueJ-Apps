@@ -1,9 +1,10 @@
 import java.util.ArrayList;
+
 /**
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (Ben Bricker) 
+ * @author (your name) 
  * @version (a version number or a date)
  */
 public class StockManager
@@ -27,13 +28,13 @@ public class StockManager
     {
         stock.add(item);
     }
-
     public void sellProduct(int id)
     {
         Product product = findProduct(id);
-
+        
         if(product != null)
-
+         
+        
         {
             product.printProduct();
             product.sellOne();
@@ -42,14 +43,10 @@ public class StockManager
         else
             System.out.println("product id does not exist:"+ id);
     } 
-
-    /**
-     * 
-     */
     public void renameProduct(int id,String name)
     {
         Product product = findProduct(id);
-
+        
         if(product != null) 
         {
             product.printProduct();
@@ -57,18 +54,18 @@ public class StockManager
             product.printProduct();
         }
     } 
-
     public void remove(int id)
     {
-        Product product = findProduct(id);
-
+       Product product = findProduct(id);
+        
         if(product != null) 
         {
-            stock.remove(product);  
-
+          stock.remove(product);  
+            
+            
         }
+ 
     }
-
     /**
      * Receive a delivery of a particular product.
      * Increase the quantity of the product by the given amount.
@@ -77,9 +74,10 @@ public class StockManager
      */
     public void delivery(int id, int amount)
     {
-        Product product = findProduct(id);
-
+         Product product = findProduct(id);
+        
         if(product != null)
+    
         {
             System.out.println("increase amount");      
             product.increaseQuantity(amount);
@@ -87,7 +85,6 @@ public class StockManager
         else
             System.out.println("product id does not exist:"+ id);
     }
-
     /**
      * Try to find a product in the stock with the given id.
      * @return The identified product, or null if there is none
@@ -96,19 +93,13 @@ public class StockManager
     public Product findProduct(int id)
     {
         for(Product product:stock)
-        {
             if (product.getID() == id)
-            {      
-                System.out.println("ID found:"+id);
-                return product;
-            }
+              {      
+                  System.out.println("ID found:"+id);
+                  return product;
         }
-         
-        System.out.println("error not found");
         return null;
-        
     }
-
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. If the ID does not
@@ -120,7 +111,6 @@ public class StockManager
     {
         return 0;
     }
-
     /**
      * Print details of all the products.
      */
@@ -131,7 +121,6 @@ public class StockManager
             product.printProduct();
         }
     }
-
     /**
      * Print details of all the products with low stock.
      */
