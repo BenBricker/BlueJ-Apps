@@ -1,0 +1,250 @@
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Remove
+enter product ID: 
+> 1
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Remove
+enter product ID: 
+> 20
+Remove Fail - product doesn't exist
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> PrintAll
+id: 2 ,quantity: 0 ,name: phone2
+id: 3 ,quantity: 0 ,name: phone3
+id: 4 ,quantity: 0 ,name: phone4
+id: 5 ,quantity: 0 ,name: WalkingStick1
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Deliver
+enter product ID: 
+> 4
+enter product quantity: 
+> 8
+increase amount
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> 
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Deliver
+enter product ID: 
+> 5
+enter product quantity: 
+> -5
+Deliver Product Fail - negative quantity not allowed
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Sell
+enter product ID: 
+> 4
+enter product quantity: 
+> 2
+id: 4 ,quantity: 8 ,name: phone4
+id: 4 ,quantity: 6 ,name: phone4
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Sell
+enter product ID: 
+> 5
+enter product quantity: 
+> 10
+id: 5 ,quantity: 0 ,name: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+Attempt to sell an out of stock item: WalkingStick1
+id: 5 ,quantity: 0 ,name: WalkingStick1
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Sell
+enter product ID: 
+> 1
+enter product quantity: 
+> -5
+Sell Product Fail - negative quantity not allowed
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> Print
+enter name: 
+> hone
+list of products containing hone in their names.
+id: 2 ,quantity: 0 ,name: phone2
+id: 3 ,quantity: 0 ,name: phone3
+id: 4 ,quantity: 6 ,name: phone4
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> PrintLowStock
+enter low stock level: 
+> 5
+List of products with low stock.
+id: 2 ,quantity: 0 ,name: phone2
+id: 3 ,quantity: 0 ,name: phone3
+id: 5 ,quantity: 0 ,name: WalkingStick1
+******************************
+ Stock Management Application 
+    App05: by Ben Bricker
+******************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Deliver:            Deliver a product
+    Sell:               Sell a product
+    Print(Name Part):   Print name part of product
+    PrintLowStock:      Print low stock products
+    Restock:            Restock product
+    PrintAll:           Print all products
+    Quit:               Quit the program
+
+> 
