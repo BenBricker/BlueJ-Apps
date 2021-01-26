@@ -19,7 +19,7 @@ public class Product
      * @param id The product's identifying number.
      * @param name The product's name.
      */
-    public Product(int id, String name)
+    public Product(int id, String name, int quantity)
     {
         this.id = id;
         this.name = name;
@@ -49,6 +49,10 @@ public class Product
     {
         return quantity;
     }
+    
+    /**
+     * Rename name.
+     */
     public void rename(String name)
     {
        this.name = name; 
@@ -97,8 +101,13 @@ public class Product
                 "Attempt to sell an out of stock item: " + name);
         }
     }
+    
+    /**
+     * Print product id,quantity and name.
+     */
     public void printProduct()
     {    
-      System.out.println("id " + id + " quantity " + quantity + " name " + name); 
+      System.out.println("id: " + id + " ,quantity: " + quantity + " ,name: " +
+      name); 
     }
 }
