@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<a href="javascript:history.back(1)">Previous Page</a>
+<html>
+<! The head contains the formatting code of the Seven Deadly Sins page.>
+<head>
+	<link rel="stylesheet" href="StyleSheet1.css" />
+
+</head>
+<! The body contains what is shown on the Seven Deadly Sins page.>
+<body>
+	<h1>Further information on The Seven Deadly Sins</h1>
+	<table class="center">
+		<tr>
+			<th scope="col">The Seven Deadly Sins Synopsis</th>
+		</tr>
+		<tr>
+			<td class="td-SevenDeadlySins">The Seven Deadly Sins were once an active group of knights in the region of Britannia, who disbanded after they supposedly plotted to overthrow the Liones Kingdom. Their supposed defeat came at the hands of the Holy Knights, but rumors continued to persist that they were still alive. Ten years later, the Holy Knights staged a coup d'état and captured the king, becoming the new, tyrannical rulers of the kingdom. The third princess, Elizabeth, then starts out on a journey to find the Seven Deadly Sins and enlist their help in taking back the kingdom.</td>
+		</tr>
+	</table>
+	<hr />
+	<table>
+		<tr>
+			<th scope="col">Best episodes</th>
+			<td class="td-SevenDeadlySins">1.episode 42,		2.episode 47,		3.episode 50,		4.episode 39,	  5.episode 23,   6.episode 24, 	7.episode 46,	 8.episode 62,	9.episode 20,	10.episode 51</td>
+		</tr>
+	</table>
+	<hr />
+	<table>
+		<tr>
+			<th scope="col">Your favourite episodes</th>
+			<td>Type in your favourite episode</td>
+		</tr>
+	</table>
+	<input type="text">
+	<input type="button">
+</body>
+</html>

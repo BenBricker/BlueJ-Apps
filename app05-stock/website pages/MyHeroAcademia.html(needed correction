@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<a href="javascript:history.back(1)">Previous Page</a>
+<html>
+<! The head contains the formatting code of the My Hero Academia page.>
+<head>
+	<link rel="stylesheet" href="StyleSheet1.css" />
+
+
+</head>
+<! The body contains what is shown on the My Hero Academia page.>
+<body>
+	<h1>Further information on My Hero Academia</h1>
+	<table class="center">
+		<tr>
+			<th scope="col">My Hero Academia Synopsis</th>
+		</tr>
+		<tr>
+			<td class="td-MyHeroAcademia">
+				The story of My Hero Academia is set in a world where currently most of the human population has gained the ability to develop superpowers called "Quirks", which occur in children within the age of four: it is estimated that around 80% of the world population has a Quirk. There are infinite types of Quirks, and it is extremely unlikely to find two people who have the exact same power, unless they are closely related. These particular abilities have allowed the development of a new category of people: Heroes, who face the evil-voted individuals who use the Quirks for selfish and criminal purposes, commonly known as Villains. In addition, Heroes who choose to exercise heroism at work level are recognized as Pro Heroes.
+				Izuku Midoriya dreams of becoming a Hero despite being bullied by his violent childhood friend Katsuki Bakugo for lacking a Quirk. Both youths idolize one of the world's greatest heroes All Might, who they both met with Izuku being one of few to know of an critical injury All Might has been concealing from the public eye to maintain morale. All Might also reveals the nature of his Quirk "One For All" and passes it down to Izuku to succeed him after seeing the youth's determination in the face of danger. As Izuku begins his path to becoming a hero in attending U.A. High School alongside Bakugo and the friends they make in Class 1-A, a nemesis to the "One For All" users named All For One conditions his apprentice Tomura Shigaraki to destroy the current society and its heroes.
+			</td>
+		</tr>
+	</table>
+	<hr />
+	<table>
+		<tr>
+			<th scope="col">Best episodes</th>
+			<td class="td-MyHeroAcademia">1.episode 49,		2.episode 88,		3.episode 76,		4.episode 42,	  5.episode 23,   6.episode 74, 	7.episode 48,	 8.episode 61,	9.episode 29,	10.episode 12</td>
+		</tr>
+	</table>
+	<hr />
+	<table>
+		<tr>
+			<th scope="col">Your favourite episodes</th>
+			<td>Type in your favourite episode</td>
+		</tr>
+	</table>
+	<input type="text">
+	<input type="button">
+</body>
+</html>

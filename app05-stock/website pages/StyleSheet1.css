@@ -1,0 +1,65 @@
+﻿img
+{
+    width: 300px;
+}
+td {
+    border: 2px solid black;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+.td-anime {
+    text-align: center;
+    color: black;
+    font: 1em Arial, sans-serif;
+    background: grey;
+}
+.th-anime > * + * {
+    padding-left: 4em;
+    text-align: right;
+}
+.td-SevenDeadlySins {
+    text-align: center;
+    color: black;
+    font: 1em Arial, sans-serif;
+    background: grey;
+}
+.td-MyHeroAcademia {
+    text-align: center;
+    color: black;
+    font: 1em Arial, sans-serif;
+    background: grey;
+}
+.td-OnePiece {
+    text-align: center;
+    color: black;
+    font: 1em Arial, sans-serif;
+    background: grey;
+}
+.td-MobPsycho100 {
+    text-align: center;
+    color: black;
+    font: 1em Arial, sans-serif;
+    background: grey;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: grey;
+}
+
+b {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+th {
+    font: 1em Arial, sans-serif;
+}

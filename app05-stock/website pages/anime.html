@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<! The head conatains the formatting code of the frontpage of website.>
+<head>
+	<link rel="stylesheet" href="StyleSheet1.css" />
+	<script type="text/javascript">
+		function showDate() {
+			var d = new Date();
+			var curr_date = d.getDate();
+			var curr_month = d.getMonth() + 1; //months are zero based
+			var curr_year = d.getFullYear();
+			document.write("date: " + curr_date + "/" + curr_month + "/" + curr_year);
+		}
+	</script>
+</head>
+<! The body contains what is shown on the frontpage of the website.>
+<! It shows the buttons that go to the other pages and pictures of anime.>
+<body>
+	
+	<h1>TalkAnime</h1>
+	<table>
+		<tr>
+			<th class="th-anime">
+				<script type="text/javascript">showDate();</script>
+			</th>
+		</tr>
+	</table>
+	<table>
+		<tr class="tr-anime">
+			<th>Anime</th>
+		</tr>
+		<tr>
+			<td class="td-anime">
+				<form method="get" action="Slideshow.html">
+					<button type="submit">Slideshow of characters</button>
+				</form>
+			</td>
+			<td class="td-OnePiece">One Piece</td>
+			<td class="td-OnePiece">
+				<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg/220px-One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg" />
+
+				<form method="get" action="OnePiece.html">
+					<button type="submit">Information</button>
+				</form>
+				<form method="get" action="OnePiece.html">
+					<button type="submit">Episode List</button>
+				</form>
+			</td>
+			<td class="td-MobPsycho100">Mob Psycho 100</td>
+			<td class="td-MobPsycho100"></td>
+			<td class="td-MobPsycho100">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/5148hOpgtbL._AC_.jpg" />
+				<form method="get" action="MobPsycho100.html">
+					<button type="submit">Information</button>
+				</form>
+				<form method="get" action="MobPsycho100.html">
+					<button type="submit">Episode List</button>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td class="td-SevenDeadlySins">Seven Deadly Sins</td>
+			<td class="td-SevenDeadlySins"></td>
+			<td class="td-SevenDeadlySins">
+				<img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-tv/the-seven-deadly-sins-poster.jpg?itok=2I2kBip1" />
+				<form method="get" action="SevenDeadlySins.html">
+					<button type="submit">Information</button>
+				</form>
+				<form method="get" action="SevenDeadlySins.html">
+					<button type="submit">Episode List</button>
+				</form>
+			</td>
+			<td class="td-MyHeroAcademia">My Hero Academia</td>
+			<td class="td-MyHeroAcademia"></td>
+			<td class="td-MyHeroAcademia">
+				<img src="https://www.anime-planet.com/images/anime/covers/my-hero-academia-7585.jpg" />
+				<form method="get" action="MyHeroAcademia.html">
+					<button type="submit">Information</button>
+				</form>
+				<form method="get" action="MyHeroAcademia.html">
+					<button type="submit">Episode List</button>
+				</form>
+			</td>
+
+		</tr>
+	</table>
+</body>
+</html>
